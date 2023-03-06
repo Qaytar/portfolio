@@ -43,13 +43,20 @@ answerBtn.addEventListener('click', () => {
     //wait for the fadeOut transition to finish 
     setTimeout(() => {
         //Removes the elements of the answer to make room for portfolio
-        answer.remove()
-
-        //Fades In every project of portfolio by setting opacity: 1
-        for (project of projects) {
-            project.classList.add('show')
-        }
+        location.href = 'portfolio.html'
     }, 1500);
+
+    //old version
+    // //wait for the fadeOut transition to finish 
+    // setTimeout(() => {
+    //     //Removes the elements of the answer to make room for portfolio
+    //     answer.remove()
+
+    //     //Fades In every project of portfolio by setting opacity: 1
+    //     for (project of projects) {
+    //         project.classList.add('show')
+    //     }
+    // }, 1500);
 });
 
 
