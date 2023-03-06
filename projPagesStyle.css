@@ -33,3 +33,7 @@ h1 {
 #left-img {
     background-color: #292d3e;
 }
+
+a {
+    text-decoration: none;
+}
