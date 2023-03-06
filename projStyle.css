@@ -1,0 +1,35 @@
+html {
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+}
+
+body {
+
+    /* background-color: #e81752; */
+    background-color: rgb(79, 229, 176);
+    font-weight: 100;
+}
+
+h1 {
+    font-weight: 100;
+}
+
+#left-img,
+#right-content {
+    height: 100vh;
+    overflow-y: hidden;
+    color: white
+}
+
+#wrapper,
+#left-img,
+.row {
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    padding-right: 0px;
+}
+
+#left-img {
+    background-color: #292d3e;
+}

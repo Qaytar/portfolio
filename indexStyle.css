@@ -27,22 +27,22 @@ body {
 
 /* intro */
 #intro h3,
-#intro .homePageBtns,
+.homePageBtns,
 #intro .answer {
     font-weight: 100;
     color: white;
 }
 
-#intro .homePageBtns {
+.homePageBtns {
     background: none !important;
     border-color: rgb(153, 255, 219) !important;
     border-radius: 3px !important;
     transition: color 0.5s, border-color 0.5s, background 0.5s !important;
 }
 
-#intro .homePageBtns:hover,
-#intro .homePageBtns:active,
-#intro .homePageBtns:focus {
+.homePageBtns:hover,
+.homePageBtns:active,
+.homePageBtns:focus {
     background: none !important;
     color: rgb(153, 255, 219) !important;
     border-color: white !important;
