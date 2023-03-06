@@ -1,3 +1,78 @@
 html {
     font-family: 'Roboto', sans-serif;
+    height: 100vh;
+}
+
+body {
+
+    /* background-color: #e81752; */
+    background-color: rgb(79, 229, 176);
+}
+
+.show {
+    opacity: 1 !important;
+}
+
+/* title */
+#title h1,
+#title h2 {
+    color: rgb(153, 255, 219);
+    font-weight: 100;
+}
+
+#title h1 {
+    font-size: 6rem;
+    margin-top: 100px;
+}
+
+/* intro */
+#intro h3,
+#intro .homePageBtns,
+#intro .answer {
+    font-weight: 100;
+    color: white;
+}
+
+#intro .homePageBtns {
+    background: none !important;
+    border-color: rgb(153, 255, 219) !important;
+    border-radius: 3px !important;
+    transition: color 0.5s, border-color 0.5s, background 0.5s !important;
+}
+
+#intro .homePageBtns:hover,
+#intro .homePageBtns:active,
+#intro .homePageBtns:focus {
+    background: none !important;
+    color: rgb(153, 255, 219) !important;
+    border-color: white !important;
+}
+
+#intro .question {
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+#intro .answer {
+    transition: color 0.5s, border-color 0.5s, background 0.5s, opacity 1.5s !important;
+    opacity: 0;
+}
+
+/* projectList */
+#projectList img {
+    width: 300px;
+    height: 150px;
+    border-radius: 3px;
+}
+
+#projectList .project {
+    opacity: 0;
+    transition: all 1s;
+    color: white;
+    font-weight: 100;
+}
+
+#projectList p {
+    color: rgb(153, 255, 219);
+    font-weight: 700;
 }
